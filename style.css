@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "inter";
+    src: url("assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4ca49;
+    padding-top: 80px;
+
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 6px 6px #000;
+    width: 300px;
+    padding-top: 15px;
+    margin: auto;
+    padding-bottom: 15px;
+    min-width: 20rem;
+    max-width: 30rem;
+}
+
+.image1 {
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 262px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.Learning-btn {
+    background-color: #f4ca49;
+    color: black;
+    margin-bottom: 15px;
+    margin-right: 201px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+span {
+    padding-right: 109px;
+    margin-bottom: 14px;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding-right: 34px;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: #f4ca49;
+}
+
+.description {
+    color: rgb(156, 154, 154);
+    margin-bottom: 12px;
+    display: block;
+    text-align: start;
+    padding-left: 27px;
+    font-size: 14px;
+}
+
+.author-image {
+    display: inline-flex;
+    gap: 13px;
+    padding-right: 166px;
+}
+
+.image2 {
+    width: 27px;
+    height: 27px;
+
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 135px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
